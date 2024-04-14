@@ -1,0 +1,29 @@
+/*The following program sorts an array given by user in ascending order by selection sort technique*/
+class SelectionSort()
+{
+void main( int arr[])
+{
+int temp,s,pos;
+for (int i=0; i<arr.length; i++)
+{
+s=n[i];
+pos=i;
+for(int j=0; j<arr.length; j++)
+{
+    if(s>arr[j])
+    {
+        s=arr[j];
+        pos=j;
+    }
+}
+temp=arr[i];
+arr[i]=s;
+arr[pos]=temp;
+}
+System.out.println("Sorted Array");
+for(int i=0; i<arr.length; i++)
+{
+    System.out.println(arr[i]);
+}
+}
+}

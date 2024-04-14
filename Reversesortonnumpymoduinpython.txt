@@ -1,0 +1,18 @@
+FOR REVERSE SORT IN NUMPY MODULE OF PYTHON
+USE :
+np.sort(arr[::-1])
+
+MODULE FUNCTIONS IN NUMPY:
+1) np.array([arrayelementshere])
+2) arr.ndim
+3) np.array([arrayelemetshere], ndmin=5)
+4) arr.dtype
+5) x=arr.copy() #has no base, thus shows None in x.base 
+6) y=arr.view()	#has base as original array, thus shows og array in y.base 
+7) np.nditer(arr[::2)
+8) np.concatenate(arr1, arr2)
+9) np.stack(arr1, arr2, axis=1) # or hstack() or vstack() or dstack()
+10) np.array_split(arr, 3, axis=1) # or hsplit()
+11) np.where(arr==4)
+12) np.searchsorted(arr, 7, side="right")
+13) np.sort(arr) 
